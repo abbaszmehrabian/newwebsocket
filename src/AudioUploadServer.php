@@ -1,5 +1,5 @@
 <?php
-namespace YourNamespace;
+namespace testvoiseserver\src;
 
 use Ratchet\MessageComponentInterface;
 use Ratchet\ConnectionInterface;

@@ -6,8 +6,7 @@ use Ratchet\ConnectionInterface;
 use Ratchet\Http\HttpServer;
 use Ratchet\Server\IoServer;
 use Ratchet\WebSocket\WsServer;
-use YourNamespace\AudioUploadServer;
-
+use testvoiseserver\src\AudioUploadServer;
 $server = IoServer::factory(
     new HttpServer(
         new WsServer(
