@@ -14,6 +14,7 @@ $server = IoServer::factory(
             new AudioUploadServer()
         )
     ),
+    8080
 );
 
 $server->run();
